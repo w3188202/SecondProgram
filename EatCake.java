@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+﻿import java.util.ArrayList;
 import java.util.Scanner;
 
 public class EatCake {
@@ -98,7 +98,7 @@ public class EatCake {
 	}
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
-		System.out.println("请输入蛋糕总数：");
+		System.out.println("****请输入蛋糕总数：");
 		int n = in.nextInt();
 		System.out.println("吃饭总数： "+fun(n)+" 种   分别为");
 		print1(n).forEach(x->{
